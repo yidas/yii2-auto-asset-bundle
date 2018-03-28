@@ -14,7 +14,7 @@ use Yii;
  *  @app/views/site/index.php => @webroot/dist/app/site/index.js
  *  @app/views/level/site/about.php => @webroot/dist/app/level/site/about.js
  */
-class AutoViewAsset extends \yii\web\AssetBundle
+class AutoAssetBundle extends \yii\web\AssetBundle
 {
     /**
      * Asset base setting
