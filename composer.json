@@ -1,0 +1,25 @@
+{
+    "name": "yidas/yii2-auto-asset-bundle",
+    "description": "Base Asset Bundle for Yii2 to auto-allocate JS & CSS files for each View",
+    "keywords": ["yii2", "framework", "asset", "asset-bundle", "view"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/yidas/yii2-auto-asset-bundle/issues?state=open",
+        "source": "https://github.com/yidas/yii2-auto-asset-bundle"
+    },
+    "authors": [
+        {
+            "name": "Nick Tsai",
+            "email": "myintaer@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "yidas\\web\\": "src"
+        }
+    }
+}
